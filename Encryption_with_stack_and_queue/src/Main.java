@@ -56,17 +56,28 @@ public class Main {
         // for each element in total, pop stack and add to string
         // alternate, then for each element in queue, dequeue and add to string
         // I guess I need to make a while loop but idk based on what condition yet
-        // Could be the lenght of both parts of the OG string!?!?
+        // Could be the lenght of both parts of the OG string!?!? Almost, but causes errors when one is empty
+        // The correct condition is while stack and queue ARE NOT EMPTY
+
         String encryptedString = "";
 
+        // IMPORTANT: putting !myQueue.isEmpty() first because it would be shorter when OG string is odd numbered
+        // This avoids the loop stopping when stack is emp
+        while (!myStack.isEmpty() && !myQueue.isEmpty()){
+            encryptedString += myStack.pop();
+            encryptedString += myQueue.remove();
+        }
 
-        encryptedString += myStack.pop();
-        encryptedString += myQueue.remove();
+        return encryptedString;
+    }
 
+    public static void main(String[] args) {
+        Scanner userInput = new Scanner(System.in);
+        System.out.println("Enter word to decrypt");
 
+        String normalString = userInput.nextLine();
 
-
-        return S;
+        System.out.println(encrypt(normalString));
     }
 
 
