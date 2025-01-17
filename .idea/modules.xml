@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DSA_in_java.iml" filepath="$PROJECT_DIR$/DSA_in_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encryption_with_stack_and_queue/Encryption_with_stack_and_queue.iml" filepath="$PROJECT_DIR$/Encryption_with_stack_and_queue/Encryption_with_stack_and_queue.iml" />
     </modules>
   </component>
 </project>
