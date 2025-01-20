@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Oblig_1 {
     /*
     Queue: MON
     Stack: ZER
@@ -68,7 +68,37 @@ public class Main {
             encryptedString += myQueue.remove();
         }
 
+        System.out.println("The decrypted string is: " + encryptedString);
         return encryptedString;
+    }
+
+    public static String decrypt(String S){
+        String unmixedString = "";
+        String even = "";
+        String odd = "";
+        char[] C = S.toCharArray();
+        for (int i = 0; i < C.length; i++ ){
+            if (i % 2 == 0) {
+                even += C[i];
+                System.out.println("Even string so far: " + even);
+            }
+            else{
+                odd += C[i];
+                System.out.println("Odd string so far: " + odd);
+            }
+        }
+
+        // Reverse the 'even' string (which holds the reversed second half)
+        String reversedEven = new StringBuilder(even).reverse().toString();
+        System.out.println("Reverse even string idek: " + reversedEven);
+
+
+        unmixedString = odd + reversedEven;
+        System.out.println("Just unmixed string. Should be Xneznaa-Tuvn: " + unmixedString);
+
+        // since ROT13 is symmetrical, running it again should return original value
+        unmixedString = stringROT13(unmixedString);
+        return unmixedString;
     }
 
     public static void main(String[] args) {
@@ -77,8 +107,16 @@ public class Main {
 
         String normalString = userInput.nextLine();
 
-        System.out.println(encrypt(normalString));
+        String finalEncryption = encrypt(normalString);
+        // System.out.println(finalEncryption);
+
+        // Karmann-Ghia
+        System.out.println(decrypt(finalEncryption));
+        // System.out.println(stringROT13(decrypt(finalEncryption)));
+
+
     }
 
+    // NO CHATGPT BABY
 
 }
