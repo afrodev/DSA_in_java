@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithm_analysis/Algorithm_analysis.iml" filepath="$PROJECT_DIR$/Algorithm_analysis/Algorithm_analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binary_trees_and_recursion/Binary_trees_and_recursion.iml" filepath="$PROJECT_DIR$/Binary_trees_and_recursion/Binary_trees_and_recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA_in_java.iml" filepath="$PROJECT_DIR$/DSA_in_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eksamen_training/Eksamen_training.iml" filepath="$PROJECT_DIR$/Eksamen_training/Eksamen_training.iml" />
       <module fileurl="file://$PROJECT_DIR$/Encryption_with_stack_and_queue/Encryption_with_stack_and_queue.iml" filepath="$PROJECT_DIR$/Encryption_with_stack_and_queue/Encryption_with_stack_and_queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Heap_ordered_binary_tree/Heap_ordered_binary_tree.iml" filepath="$PROJECT_DIR$/Heap_ordered_binary_tree/Heap_ordered_binary_tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sortin_arrays_vs_lists/Sortin_arrays_vs_lists.iml" filepath="$PROJECT_DIR$/Sortin_arrays_vs_lists/Sortin_arrays_vs_lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Text_analysis_balanced_search_tree/Text_analysis_balanced_search_tree.iml" filepath="$PROJECT_DIR$/Text_analysis_balanced_search_tree/Text_analysis_balanced_search_tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Text_analysis_binary_search_trees/Text_analysis_binary_search_trees.iml" filepath="$PROJECT_DIR$/Text_analysis_binary_search_trees/Text_analysis_binary_search_trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Text_analysis_hashmap/Text_analysis_hashmap.iml" filepath="$PROJECT_DIR$/Text_analysis_hashmap/Text_analysis_hashmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topological_graph_sorting/Topological_graph_sorting.iml" filepath="$PROJECT_DIR$/Topological_graph_sorting/Topological_graph_sorting.iml" />
     </modules>
   </component>
 </project>
